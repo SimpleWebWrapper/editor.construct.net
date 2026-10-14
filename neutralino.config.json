@@ -1,0 +1,44 @@
+{
+    "applicationId": "net.construct.editor",
+    "applicationName": "Construct 3",
+    "author": "Simple Web Wrapper",
+    "description": "Construct 3",
+    "applicationIcon": "./resources/icon.png",
+    "version": "1.0.0",
+    "defaultMode": "window",
+    "port": 0,
+    "url": "https://editor.construct.net/r449-6/",
+    "enableServer": false,
+    "enableNativeAPI": false,
+    "tokenSecurity": "one-time",
+    "logging": {
+        "enabled": true,
+        "writeToLogFile": false
+    },
+    "nativeAllowList": [],
+    "modes": {
+        "window": {
+            "title": "Construct 3 r449.6",
+            "width": 1500,
+            "height": 900,
+            "minWidth": 400,
+            "minHeight": 200,
+            "icon": "/resources/icon.png",
+            "enableInspector": true,
+            "openInspectorOnStartup": false,
+            "resizable": true,
+            "center": true,
+            "useSavedState": false,
+            "exitProcessOnClose": false,
+            "injectClientLibrary": true
+        }
+    },
+    "cli": {
+        "binaryName": "simple-wrapper",
+        "resourcesPath": "/resources/",
+        "extensionsPath": "/extensions/",
+        "clientLibrary": "/resources/neutralino.js",
+        "binaryVersion": "6.8.0",
+        "clientVersion": "6.8.0"
+    }
+}
